@@ -16,7 +16,6 @@ int tam_file(){
     archivo.close();
     return tam;
 }
-
 char* crear_arreglo_de_caracteres(int tamanio){
     fstream archivo("file.txt");
 
@@ -33,7 +32,6 @@ char* crear_arreglo_de_caracteres(int tamanio){
     return ptr_caracteres;
 
 }
-
 int* num_a_binario_arreglo(int num){
     int *ptr_arre_num_en_bi;
     ptr_arre_num_en_bi=new int[8];
@@ -170,7 +168,7 @@ void cambios_modo3(int*ptr_numeros_binarios,int indice1,int indice2){
         }
     }
 }
-
+//=================================================
 void codificar_metodo1(int *ptr_numeros_binario,int *arreglo_cambiosXbloques,int semilla,int tam){
     cambios_modo1(ptr_numeros_binario,0,semilla-1);
 
