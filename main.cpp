@@ -168,7 +168,6 @@ void cambios_modo3(int*ptr_numeros_binarios,int indice1,int indice2){
         }
     }
 }
-//=================================================
 void codificar_metodo1(int *ptr_numeros_binario,int *arreglo_cambiosXbloques,int semilla,int tam){
     cambios_modo1(ptr_numeros_binario,0,semilla-1);
 
